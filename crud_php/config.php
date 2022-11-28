@@ -1,7 +1,7 @@
 <?php
 
   define('PASS', '');
-  define('BASE','estudosphp');
+  define('USER','root');
 
 
   $pdo = new PDO('mysql:host=localhost;dbname=estudosphp', USER, PASS);

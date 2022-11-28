@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Cadastrar</title>
   </head>
   <body>
@@ -30,9 +31,12 @@
           case "listar":
             include("consulta_usuarios.php");
           break; 
-            case "salvar":
+          case "salvar":
               include("inserir_usuario.php");
-          break;    
+          break; 
+          case "editar":
+            include("editar_usuario.php");
+          break;   
           default:
             echo "Página inicial!";            
         }
